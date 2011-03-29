@@ -1,0 +1,3 @@
+<?php
+
+include_once('mm_events_calendar.features.inc');
