@@ -5,7 +5,7 @@
  */
 
 /**
- * Implementation of hook_field_default_fields().
+ * Implements hook_field_default_fields().
  */
 function mm_events_calendar_field_default_fields() {
   $fields = array();
@@ -161,7 +161,7 @@ function mm_events_calendar_field_default_fields() {
           'text_parts' => array(),
           'year_range' => '-3:+3',
         ),
-        'type' => 'date_popup_repeat',
+        'type' => 'date_popup',
         'weight' => '32',
       ),
     ),
