@@ -15,7 +15,7 @@ function mm_events_calendar_menu_default_menu_links() {
     'menu_name' => 'main-menu',
     'link_path' => 'calendar/month',
     'router_path' => 'calendar/month',
-    'link_title' => 'Events Calendar',
+    'link_title' => 'Calendar',
     'options' => array(
       'attributes' => array(
         'title' => '',
@@ -26,11 +26,11 @@ function mm_events_calendar_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '0',
+    'weight' => '-48',
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Events Calendar');
+  t('Calendar');
 
 
   return $menu_links;
